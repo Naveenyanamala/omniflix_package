@@ -1,0 +1,30 @@
+{
+  "name": "@naveenyanamala/omniflix-js-sdk",
+  "version": "1.0.0",
+  "description": "JavaScript SDK for OmniFlix NFT operations",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "**/*.js",
+    "**/*.js.map"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "omniflix",
+    "nft",
+    "blockchain",
+    "sdk"
+  ],
+  "author": "OmniFlix",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.31.0",
+    "@cosmjs/stargate": "^0.31.0",
+    "@cosmjs/math": "^0.31.0"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"tx.amino.js","sourceRoot":"","sources":["tx.amino.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,MAAM,CAAC;AACvC,MAAM,CAAC,MAAM,cAAc,GAAG;IAC5B,6CAA6C,EAAE;QAC7C,SAAS,EAAE,6CAA6C;QACxD,OAAO,EAAE,eAAe,CAAC,OAAO;QAChC,SAAS,EAAE,eAAe,CAAC,SAAS;KACrC;CACF,CAAC"}
