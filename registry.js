@@ -1,5 +1,6 @@
 // Re-export the message types for easy access
 export * from './OmniFlix/onft/v1beta1/tx.js';
+export * from './osmosis/tokenfactory/v1beta1/tx.js';
 
 // Import the specific message types for registry
 import {
