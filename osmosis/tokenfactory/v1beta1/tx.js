@@ -1,6 +1,6 @@
-import { Coin } from "../../../cosmos/base/v1beta1/coin";
-import { Metadata, Params } from "../../../cosmos/bank/v1beta1/bank";
-import { BinaryReader, BinaryWriter } from "../../../binary";
+import { Coin } from "../../../cosmos/base/v1beta1/coin.js";
+import { Metadata, Params } from "../../../cosmos/bank/v1beta1/bank.js";
+import { BinaryReader, BinaryWriter } from "../../../binary.js";
 function createBaseMsgCreateDenom() {
     return {
         sender: "",
