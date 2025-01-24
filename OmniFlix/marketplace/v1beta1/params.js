@@ -1,5 +1,5 @@
-import { Duration } from "../../../google/protobuf/duration";
-import { BinaryReader, BinaryWriter } from "../../../binary";
+import { Duration } from "../../../google/protobuf/duration.js";
+import { BinaryReader, BinaryWriter } from "../../../binary.js";
 import { Decimal } from "@cosmjs/math";
 function createBaseParams() {
     return {

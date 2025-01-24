@@ -1,11 +1,11 @@
-import { Coin } from "../../../cosmos/base/v1beta1/coin";
-import { WeightedAddress } from "./listing";
-import { Timestamp } from "../../../google/protobuf/timestamp";
-import { Duration } from "../../../google/protobuf/duration";
-import { Params } from "./params";
-import { AuctionListing } from "./auction";
-import { BinaryReader, BinaryWriter } from "../../../binary";
-import { toTimestamp, fromTimestamp } from "../../../helpers";
+import { Coin } from "../../../cosmos/base/v1beta1/coin.js";
+import { WeightedAddress } from "./listing.js";
+import { Timestamp } from "../../../google/protobuf/timestamp.js";
+import { Duration } from "../../../google/protobuf/duration.js";
+import { Params } from "./params.js";
+import { AuctionListing } from "./auction.js";
+import { BinaryReader, BinaryWriter } from "../../../binary.js";
+import { toTimestamp, fromTimestamp } from "../../../helpers.js";
 import { Decimal } from "@cosmjs/math";
 function createBaseMsgListNFT() {
     return {

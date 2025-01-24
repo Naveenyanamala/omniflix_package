@@ -1,4 +1,4 @@
-import { BinaryReader, BinaryWriter } from "../../binary";
+import { BinaryReader, BinaryWriter } from "../../binary.js";
 function createBaseDuration() {
     return {
         seconds: BigInt(0),

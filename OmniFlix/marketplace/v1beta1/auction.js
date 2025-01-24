@@ -1,8 +1,8 @@
-import { Coin } from "../../../cosmos/base/v1beta1/coin";
-import { Timestamp } from "../../../google/protobuf/timestamp";
-import { WeightedAddress } from "./listing";
-import { BinaryReader, BinaryWriter } from "../../../binary";
-import { toTimestamp, fromTimestamp } from "../../../helpers";
+import { Coin } from "../../../cosmos/base/v1beta1/coin.js";
+import { Timestamp } from "../../../google/protobuf/timestamp.js";
+import { WeightedAddress } from "./listing.js";
+import { BinaryReader, BinaryWriter } from "../../../binary.js";
+import { toTimestamp, fromTimestamp } from "../../../helpers.js";
 import { Decimal } from "@cosmjs/math";
 export var AuctionStatus;
 (function (AuctionStatus) {
