@@ -1,6 +1,6 @@
 {
   "name": "@naveenyanamala/omniflix-js-sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "JavaScript SDK for OmniFlix NFT operations",
   "type": "module",
   "main": "index.js",
