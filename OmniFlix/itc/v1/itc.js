@@ -1,8 +1,8 @@
-import { Timestamp } from "../../../google/protobuf/timestamp";
-import { Coin } from "../../../cosmos/base/v1beta1/coin";
-import { Duration } from "../../../google/protobuf/duration";
-import { BinaryReader, BinaryWriter } from "../../../binary";
-import { toTimestamp, fromTimestamp } from "../../../helpers";
+import { Timestamp } from "../../../google/protobuf/timestamp.js";
+import { Coin } from "../../../cosmos/base/v1beta1/coin.js";
+import { Duration } from "../../../google/protobuf/duration.js";
+import { BinaryReader, BinaryWriter } from "../../../binary.js";
+import { toTimestamp, fromTimestamp } from "../../../helpers.js";
 import { Decimal } from "@cosmjs/math";
 export var DistributionType;
 (function (DistributionType) {

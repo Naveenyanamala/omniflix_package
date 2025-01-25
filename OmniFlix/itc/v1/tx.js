@@ -1,10 +1,10 @@
-import { NFTDetails, Distribution } from "./itc";
-import { Coin } from "../../../cosmos/base/v1beta1/coin";
-import { Timestamp } from "../../../google/protobuf/timestamp";
-import { Duration } from "../../../google/protobuf/duration";
-import { Params } from "./params";
-import { BinaryReader, BinaryWriter } from "../../../binary";
-import { toTimestamp, fromTimestamp } from "../../../helpers";
+import { NFTDetails, Distribution } from "./itc.js";
+import { Coin } from "../../../cosmos/base/v1beta1/coin.js";
+import { Timestamp } from "../../../google/protobuf/timestamp.js";
+import { Duration } from "../../../google/protobuf/duration.js";
+import { Params } from "./params.js";
+import { BinaryReader, BinaryWriter } from "../../../binary.js";
+import { toTimestamp, fromTimestamp } from "../../../helpers.js";
 function createBaseMsgCreateCampaign() {
     return {
         name: "",

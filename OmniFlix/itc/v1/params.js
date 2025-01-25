@@ -1,6 +1,6 @@
-import { Duration } from "../../../google/protobuf/duration";
-import { Coin } from "../../../cosmos/base/v1beta1/coin";
-import { BinaryReader, BinaryWriter } from "../../../binary";
+import { Duration } from "../../../google/protobuf/duration.js";
+import { Coin } from "../../../cosmos/base/v1beta1/coin.js";
+import { BinaryReader, BinaryWriter } from "../../../binary.js";
 function createBaseParams() {
     return {
         maxCampaignDuration: Duration.fromPartial({}),
