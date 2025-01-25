@@ -2,6 +2,7 @@
 export * from './OmniFlix/onft/v1beta1/tx.js';
 export * from './osmosis/tokenfactory/v1beta1/tx.js';
 export * from './OmniFlix/itc/v1/tx.js';   
+export * from './OmniFlix/streampay/v1/tx.js';
 
 // Import the specific message types for registry
 import {
